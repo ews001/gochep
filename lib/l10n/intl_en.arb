@@ -1,0 +1,47 @@
+{
+    "@globals@": "",
+    "email": "Email",
+    "password": "Password",
+    "emailRequestError": "Valid email address is required",
+    "accept": "Accept",
+    "cancel": "Cancel",
+    "wait":"wait",
+    "done": "done",
+  
+    "gochep": "GoChep",
+    "@splashView@":"View",
+    "splashViewFooter":" GoChep © {year} by Easy Way Services.",
+  
+
+    "@@OnBoardingView@@":"View",
+"onBoardingViewLetDone": " Let\u0027s go right away!",
+
+    "@signInView@":"View",
+    "signInViewTitle": "Sign In",
+    "signInViewSubTitle": "Sign In to discover Amazing Services Near Around you",
+    "signInViewBtnLogin": "Login",
+    "signInViewOrProviderLabel": "Or connect using",
+    "signInViewBtnSignUp": "Don`t have an Account? Sign Up",
+    "signInViewBtnForgotPassword": "Forgot password?",
+  
+    "@dialogShowHttpError@":"Dialog",
+    "dialogShowHttpErrorTitle":"Connection error",
+    "dialogShowHttpErrorSub":"Please check your internet connection and try again",
+  
+    "@dialogShowAccountDisabled@":"Dialog",
+    "dialogShowAccountDisabledTitle":"Account disabled",
+    "dialogShowAccountDisabledSub":"your account is disabled, please contact support.",
+  
+    "@dialogShowErrorTooManyRequests@": "Dialog",
+    "dialogShowErrorTooManyRequestsTitle": "Too many requests",
+    "dialogShowErrorTooManyRequestsSub": "wait a minute and try again",
+  
+    "@dialogShowErrorCredentials@": "Dialog",
+    "dialogShowErrorCredentialsTitle": "Invalid credentials",
+    "dialogShowErrorCredentialsSub": "Incorrect email and/or password",
+    "dialogShowErrorCredentialsSub2": "Incorrect password",
+  
+    "@dialogShowEmailRequire@": "Dialog",
+    "dialogShowEmailRequireTitle": "To continue",
+    "dialogShowEmailRequireSub": "A valid email is required to continue"
+  }
