@@ -3,6 +3,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:gochep/generated/l10n.dart';
 import 'package:gochep/modules/auth/login/bloc/login_bloc.dart';
+import 'package:gochep/modules/auth/sign_up/presentation/views/sign_up_view.dart';
 import 'package:gochep/settings/size_config.dart';
 import 'package:gochep/utils/colors.dart';
 import 'package:gochep/utils/text_styles.dart';
@@ -22,7 +23,8 @@ class BtnSignUpWidget extends StatelessWidget {
           shape:
               RoundedRectangleBorder(borderRadius: BorderRadius.circular(0.0)),
         ),
-        onPressed: () => {},
+        onPressed: () => Navigator.of(context)
+            .push(MaterialPageRoute(builder: (context) => const SignUpView())),
         child: Text(
           S.current.signInViewBtnSignUp,
           style: const14BoltTextStyle,
